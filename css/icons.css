@@ -1,0 +1,49 @@
+/* linkedin */
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 10px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 0;
+  text-indent: -9999px;
+}
+.icon-mono {
+  background: url("../images/sicons.png");
+  background-color: #595959;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+.icon-mono.facebook {
+  background-position: 0 0;
+}
+.icon-mono.facebook:hover {
+  background-color: #3b5998;
+  background-position: 0 -48px;
+}
+/* linkedin */
+.icon-mono.linkedin {
+  background-position: -48px 0;
+}
+.icon-mono.linkedin:hover {
+  background-color: #056595;
+  background-position: -48px -48px;
+}
+/* soundcloud */
+.icon-mono.soundcloud {
+  background-position: -96px 0;
+}
+.icon-mono.soundcloud:hover {
+  background-color: #f65f3a;
+  background-position: -96px -48px;
+}
+/* skype */
+.icon-mono.skype {
+  background-position: -144px 0;
+}
+.icon-mono.skype:hover {
+  background-color: #18c0fe;
+  background-position: -144px -48px;
+}
